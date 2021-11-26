@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fourth-component.component.css']
 })
 export class FourthComponentComponent implements OnInit {
-
-  constructor() { }
+  name : string;
+  constructor() { 
+    this.name = "quarto"
+  }
 
   ngOnInit(): void {
   }
